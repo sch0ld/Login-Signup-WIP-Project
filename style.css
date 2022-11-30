@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    background-color: rgb(19, 19, 19);
+}
+
+body .container {
+    position: absolute;
+    width: 50%;
+    height: 75%;
+    background-color: rgb(29, 29, 29);
+    left: 25%;
+    top: 7.5%;
+    overflow: hidden;
+    /* border: 1px solid black; */
+    border-radius: 1rem;
+}
+
+
+.container h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(224, 224, 224);
+}
+
+.container form {
+    display: grid;
+}
+
+.container form input, label{
+    position: relative;
+    font-size: 1.5rem;
+    width: 50%;
+    left: 25%;
+    line-height: 4rem;
+    color: rgb(224, 224, 224);
+    background-color: transparent;
+    border: 0;
+}
+
+input:focus{
+    outline: none;
+}
+
+.container form input[type="submit"] {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: transparent;
+    color: rgb(224, 224, 224);
+    border: 1px solid rgb(224, 224, 224);;
+}
+.container form input[type="submit"]:hover {
+    padding: 1rem;
+    background-color: rgb(43, 43, 43);
+    cursor: pointer;
+}
+
+.container form input {
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.container form label + input {
+    margin-top: 0px;
+}
+
+label {
+    margin-left: -10px;
+    font-weight: 600;
+}
+
+.error {
+    position: relative;
+    left: 25%;
+    font-size: 1rem;
+    max-width: fit-content;
+    color: red;
+}
+
+.container a{
+    position: relative;
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+    font-size: 1rem;
+    float: right;
+    right: 25%;
+    margin-top: -1.5rem;
+}
+
+.container a:hover{
+    position: relative;
+    text-decoration: underline;
+    color: rgb(177, 177, 177);
+    cursor: not-allowed;
+}

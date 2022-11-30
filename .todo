@@ -1,0 +1,19 @@
+ToDo List - Auth Page
+
+- Login
+    - Check lengths of entered values before search within DB @done
+    - Connect to DB
+    - Gets the password from DB where username
+    - Show error messages when failed login attempt @done
+    - Filter out illegal characters using RegEx
+
+- Signup
+    - Whole Page
+    - Create a secure password using password requirements with RegEx
+    - Filter out illegal characters using RegEx
+
+
+
+
+- Known bugs to fix
+    - Pointer cursor on login:hover @done
